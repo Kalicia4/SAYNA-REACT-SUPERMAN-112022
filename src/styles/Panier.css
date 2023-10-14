@@ -1,0 +1,101 @@
+.panier{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin: 0%;
+    
+}
+.ligne{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.breadcrumb-item.active{
+    color: white;
+    border: none;
+    text-decoration: underline;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+    color: white;
+}
+nav{
+    flex: 1;
+}
+.ligne1{
+    display: flex;
+    flex-direction: row;
+}
+.apropos{
+    margin-left: 5%;
+    width: 100%;
+}
+.nomp{
+    border-bottom: solid white 2px;
+    padding-bottom: 2%;
+}
+.l1, .droite, .l2{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.prix, .droite{
+    flex: 1;
+}
+.droite{
+    float: right;
+    align-items: center;
+    justify-content: right;
+}
+.droite h6{
+    text-decoration: underline;
+}
+.dropdown{
+    margin-left: 2%;
+    padding: 3%;
+}
+.dropdown-toggle{
+    background-color: transparent;
+}
+.ajout{
+    width: 50%;
+    border-radius: 25px;
+}
+.coeur{
+    width: 25%;
+    margin-left: 2%;
+    color: white;
+    height: 100%;
+
+}
+.l2{
+    padding-bottom: 4%;
+    border-bottom: 2px solid white;
+}
+.l3{
+    padding: 3%;
+    text-align: justify;
+}
+.ligne2{
+    padding: 3%;
+    border-bottom: 1px solid white;
+    border-top: 2px solid white;
+}
+.commentaire{
+    margin-top: 5%;
+    padding: 3%;
+    border-bottom: 2px solid white;
+}
+.nom{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+}
+h5{
+    flex: 1;
+    color: blue;
+}

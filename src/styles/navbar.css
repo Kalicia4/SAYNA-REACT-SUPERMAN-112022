@@ -1,0 +1,23 @@
+
+.nav-link{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.active, .nav-link:hover{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    color: white;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: white;
+}
+.navbar{
+    padding: 0%;
+}
+nav .container{
+    height: 15vh;
+    border-bottom: solid 1px white;
+}

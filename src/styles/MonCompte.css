@@ -1,0 +1,69 @@
+.connex .container{
+    display: flex;
+    justify-content: center;
+}
+
+.div1{
+    padding: 2%;
+    width: 75%;
+    background: rgb(3,43,62);
+    background: linear-gradient(118deg, rgba(3,43,62,1) 51%, rgba(152,202,193,1) 100%);
+    margin-top: 5%;
+   text-align: center;
+   border-radius: 5%;
+    
+}
+.div2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.div3{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 5%;
+    margin: 3%;
+    border-radius: 5%;
+    background-color: rgba(156, 156, 156, 0.596);
+
+}
+.div3 input{
+    padding: 1.5%;
+    width: 100%;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid rgb(196, 196, 196);
+    color: white;
+}
+.div3 input::placeholder{
+    color: white;
+}
+
+.champ{
+    width: 100%;
+    
+}
+.div3 p {
+    font-size: 75%;
+    text-decoration: underline;
+}
+.valider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+.btnValid{
+    padding: 4%;
+    font-weight: bold;
+    font-size: 1.5em;
+    background: rgb(6,100,144);
+    background: linear-gradient(41deg, rgba(6,100,144,1) 34%, rgba(152,202,193,1) 75%);
+}
+.connex{
+    background-image: url(../assets/images/bg/bg_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

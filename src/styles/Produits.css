@@ -1,0 +1,80 @@
+.l1{
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+}
+.char{
+    display: flex;
+    justify-content: right;
+    /* background-color: aquamarine; */
+}
+
+.achatProd{
+    margin-top: 2%; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    /* background-color: blueviolet; */
+    border: 2px solid white;
+}
+.g, .d{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+
+}
+.g{
+    flex: 1;
+}
+.d{
+    flex: 2;
+    /* margin-right: 5%;  */
+    justify-content: center;
+}
+.d h3{
+    margin-right: 10%;
+    text-align: right;
+}
+.prod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.prod img{
+    width: 75%;
+    height: 75%;
+    border: 2px solid white;
+}
+
+.infop{
+    display: flex;
+    align-items: center;
+    /* margin-left: 5%; */
+}
+.total{
+    display: flex;
+    justify-content: right;
+    width: 90%;
+}
+.sous{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    float: right;
+}
+.sous h4 {
+    flex: 1;
+    text-align: right;
+}
+.tout{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.btn{
+    background: rgb(152,202,193);
+    background: linear-gradient(90deg, rgba(152,202,193,1) 17%, rgba(54,81,98,1) 76%);    
+}

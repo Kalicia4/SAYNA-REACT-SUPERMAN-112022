@@ -1,0 +1,72 @@
+.conteneur{
+
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.bleu{
+    background-color: #071822;
+    width: 75%;
+    padding: 5%;
+}
+.code{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ajouter{
+    margin-left: 3%;
+    width: 15%;
+    padding: 1%;
+    background-color: transparent;
+    border: 2px solid #98cac1;
+    color: white;
+    font-weight: bold;
+}
+
+.zone{
+    padding: 1%;
+    width: 30%;
+    border: white 1px solid;
+}
+.zone::placeholder{
+    color: black;
+}
+.calcul{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}  
+h6{
+    flex: 1;
+}
+.chiffre{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-top: 5%;
+    padding-top: 3%;
+}
+.achat{
+    border: none;
+}
+.bas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.bas button{
+    width: 25%;
+    margin-left: 2%;
+    font-weight: bold;
+}
+.btn1{
+    background-color: transparent;
+    border: #98cac1 2px solid;
+}
+.btn2{
+    background: rgb(152,202,193);
+    background: linear-gradient(90deg, rgba(152,202,193,1) 17%, rgba(54,81,98,1) 76%);
+}

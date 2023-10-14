@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'rajdhani';
+    src: url(../assets/polices/rajdhani/rajdhani-regular.ttf);
+}
+@font-face {
+    font-family: 'space-grotesk';
+    src: url(../assets/polices/spacegrotesk/SpaceGrotesk-Regular.otf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} body{
+    font-family: 'rajdhani';
+    color: white;
+    background-color: black; 
+    
+} 
+.container{
+    /* background-color: aqua; */
+    border-right: solid white 1px;
+    border-left:solid white 1px ;
+    padding: 3%;
+}
+
